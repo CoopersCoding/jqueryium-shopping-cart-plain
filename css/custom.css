@@ -1,7 +1,13 @@
+/* change background color */
+body {
+    background-color: #A2B0B8;
+}
+
 h1  {
     text-align: center;
     font-weight: bold;
-
+    color: white;
+    text-shadow: rgb(131, 121, 121) 2px 2px;
 }
 
 .btn {
@@ -24,11 +30,12 @@ input {
 }
 
 .table {
-    border: 1px solid #ccc;
+    border: 3px solid white;
     border-radius: 4px;
     padding: 10px;
     font-size: 14px;
     text-align: center;
+    box-shadow: rgb(131, 121, 121) 2px 2px;
 }
 
 .btn-sm {
@@ -39,8 +46,6 @@ input {
     width: 100px;
     text-align: left;
     font-size: 12px;
-    
-
 }
 
 #item {
@@ -48,7 +53,6 @@ input {
     text-align: left;
     font-size: 12px;
     font-weight: bold;
-
 }
 
 #grandTotal {
@@ -59,14 +63,4 @@ input {
     font-weight: bold;
     border: 1px solid #929090;
     margin-right: 10px;
-
-}
-
-#clearCart {
-    background-color: rgb(204, 207, 35);
-    width: 100px;
-    text-align: right;
-    font-size: 12px;
-    font-weight: bold;
-    border: 1px solid #929090;
 }

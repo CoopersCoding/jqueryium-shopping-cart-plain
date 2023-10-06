@@ -51,13 +51,7 @@ var removeItemFromCart = function(e){
     calculateGrandTotal();
 }
 
-// clear cart
-var clearCart = function(){
-    $('.item').val('');
-    $('.price').val('');
-    $('.qty').val('');
-    $('.cost').html('');
-}
+
 
 
 //Event Handlers
