@@ -52,7 +52,6 @@
                 <td class='qty'><input type='number'></input></td>
                 <td class="cost"></td>
                 <td><button class='btn btn-xs remove'><i>Remove</i></button></td>
-                
               </tr>
               <tr>
                 <th scope="row item">Coffee Creamer</th>
@@ -75,11 +74,13 @@
                 <td class="cost"></td>
                 <td><button class='btn btn-xs remove'><i>Remove</i></button></td>
               </tr>
+            </tbody>
+            <tfoot>
               <tr id='lastRow'>
                 <td><input class='form-control input-sm' type='text' id='item' placeholder='new item'></input></td>
                 <td><input class='form-control input-sm' type='number' id='price' placeholder='price'></input></td>
                 <td colspan='2'></td>
-                <td><button class='btn btn-primary btn-sm add'>Add</button></td>
+                <td><button class='btn btn-primary btn-sm' id='add'>Add</button></td>
               </tr>
               <tr>
                 <td colspan='2' class='text-left'>GRAND TOTAL</td>
@@ -87,7 +88,7 @@
                 <td ><button class='btn btn-xs clear'><i>Clear Cart</i></button></td>
                 <td></td>
               </tr>
-            </tbody>
+            </tfoot>
           </table>
         </div>
         <tfoot>
