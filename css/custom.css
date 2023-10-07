@@ -27,6 +27,16 @@ input {
     font-size: 14px;
     font-weight: bold;
     text-align: center;
+    
+}
+
+.container {
+    background-color: rgb(26, 35, 77);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgb(78, 75, 75) 5px 5px;
+    margin-top: 100px;
+    max-width: 600px;
 }
 
 .table {
